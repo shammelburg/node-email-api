@@ -1,0 +1,25 @@
+{
+  "name": "email-notifications-api",
+  "version": "1.0.0",
+  "description": "A Email Service REST API that uses Nodemailer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js ",
+    "dev": "nodemon -r dotenv/config index.js dotenv_config_path=.env",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sander Hammelburg",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.20.2",
+    "express": "4.18.2",
+    "helmet": "7.0.0",
+    "morgan": "1.10.0",
+    "nodemailer": "6.9.4",
+    "nodemailer-express-handlebars": "6.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "16.3.1",
+    "nodemon": "3.0.1"
+  }
+}
